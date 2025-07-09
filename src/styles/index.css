@@ -9,3 +9,22 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+
+#formulario{
+    width: 320px;
+    margin: 20px auto 0;
+    padding: 16px;
+    border: 2px solid #555;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+form label {
+  display: block;        
+  margin-bottom: 4px;    
+  font-weight: 600;      
+}

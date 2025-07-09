@@ -23,11 +23,11 @@ export const Formulario = ({agregarContacto}) => {
         setTelefono("");
         setPassword("");
     };
-    // console.log("Lista Completa:", lista);
+   
 
     return (
         <>
-            <form onSubmit={handleSubmit} >
+            <form id="formulario" onSubmit={handleSubmit} >
                 <div className="mb-3">
                     <label htmlFor="exampleInputEmail1" className="Form-label">Email address</label>
                     <input className="Form-control" id="exampleInputEmail1" aria-describedby="emailHelp"

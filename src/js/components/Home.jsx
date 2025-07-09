@@ -3,6 +3,7 @@ import React, { useState } from "react";
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
 import { Formulario } from "./Formulario";
+import { DataCard } from "./Datacard";
 
 // //create your first component
 // const Home = () => {
@@ -73,6 +74,9 @@ const Home = () => {
 	return (
 		<>
 			<Formulario agregarContacto={agregarContacto}></Formulario>
+			<DataCard
+			lista={lista}
+			/>
 		</>
 	);
 };
